@@ -339,7 +339,7 @@
     <div class="col-lg-8 mx-auto text-left">
 	<h2 class="section-heading">Send Us A Message!</h2>
             <hr class="my-4">
-    <form action="https://formcarry.com/s/BJ4zKfuuz" method="POST" accept-charset="UTF-8">
+    <form action="action_page.php" method="POST">
 
     <label for="fname">First Name</label>
     <input type="text" id="fname" name="firstname" placeholder="Your name..">
