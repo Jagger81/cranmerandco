@@ -165,6 +165,15 @@ input[type=submit]:hover {
     text-align:center;
 }
 
+.input-group-addon{
+	color:#ff0000; 
+	background-color: #ffffff;
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+}
+
 .text-faded {
   color: rgba(255, 255, 255, 0.7);
 }

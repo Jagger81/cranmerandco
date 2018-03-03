@@ -340,34 +340,82 @@
 	<h2 class="section-heading">Send Us A Message!</h2>
             <hr class="my-4">
     <form action="https://formcarry.com/s/BJ4zKfuuz" method="POST" accept-charset="UTF-8">
+	</div>
+	</div>
 
-    <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name..">
-
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+	<div class="row">
+	<div class ="col-lg-3 mx-auto text-left">
+  
+	<div class="form-group ">
+      <!--<label class="control-label " for="firstname">
+      Firsttname
+      </label>-->
+       <div class="input-group">
+         <div class="input-group-addon">
+	     <i class="fa fa-user"></i> 
+         </div>
+         <input class="form-control" type="text" id="fname" name="firstname" placeholder="Your Firstname.."/>
+       </div>
+    </div> 
 	
-	<label for="email">Email</label>
-    <input type="email" id="email" name="email" placeholder="Your email..">
+	<div class="form-group ">
+      <!--<label class="control-label " for="lastname">
+      Lastname
+      </label>-->
+       <div class="input-group">
+         <div class="input-group-addon">
+	     <i class="fa fa-user"></i> 
+         </div>
+         <input class="form-control" type="text" id="lname" name="lastname" placeholder="Your Lastname.."/>
+       </div>
+    </div>
+	</div>
+	
+	<div class ="col-lg-3 mx-auto text-left">
+	<div class="form-group ">
+      <!--<label class="control-label " for="email">
+      Email
+      </label>-->
+       <div class="input-group">
+         <div class="input-group-addon">
+	     <i class="fa fa-envelope"></i> 
+         </div>
+         <input class="form-control" type="email" id="email" name="email" placeholder="Your Email.."/>
+       </div>
+    </div>
 
-    <label for="category">How can we help?</label>
+    <!--<label for="category">How can we help?</label>-->
     <select id="cat" name="category">
-      <option value="Auditing">Auditing</option>
+      <option value="" disabled selected>How can we help?</option>
+	  <option value="Auditing">Auditing</option>
       <option value="Business Start-Up">Business Start-Up</option>
       <option value="Training Services">Training Services</option>
 	  <option value="PAYE & VAT">PAYE & VAT</option>
 	  <option value="Payroll & Bookkeeping">Payroll & Bookkeeping</option>
 	  <option value="Payroll & Bookkeeping">GENERAL Query</option>
     </select>
+	</div>
 
-    <label for="message">Message</label>
-    <textarea id="mes" name="message" placeholder="Type Your Message Here.." style="height:200px"></textarea>
-
-    <input type="submit" value="Send Message">
+	<div class ="col-lg-6 mx-auto text-left">
+    <!--<label for="message">Message</label>-->
+	<div class="form-group ">
+      <!--<label class="control-label " for="message">
+      Email
+      </label>-->
+       <div class="input-group">
+         <div class="input-group-addon">
+	     <i class="fa fa-envelope-o"></i> 
+         </div>
+          <textarea class="form-control" id="mes" name="message" placeholder="Type Your Message Here.." style="height:120px"></textarea>
+       </div>
+    </div>
+	
+    <input type="submit" value="Send Message" style="float:right">
 
     </form>
-    </div>
-    </div>
+	</div>
+	</div>
+	</div>
     </div>	<!--end of contact form-->
 
 
