@@ -112,17 +112,8 @@ h6 {
   background-size: cover;
 } */
 
-:#cat {
-    width: 87.5%;
-    padding: .375rem .75rem;
-    font-size: 1rem;
-    line-height: 1.5;
-    color: #495057;
-    background-color: #fff;
-    background-clip: padding-box;
-    border: 1px solid #ced4da;
-    border-radius: 0 .25rem .25rem 0;
-    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+#cat {
+	height: 62px;
 }
 
 input[type=submit] {
@@ -161,6 +152,7 @@ input[type=submit]:hover {
     border: 1px solid #ccc; /* Gray border */
     border-radius: 4px 0px 0px 4px; /* Rounded borders */
     box-sizing: border-box; /* Make sure that padding and width stays in place */
+	font-size:20px;
 }
 
 .text-faded {
