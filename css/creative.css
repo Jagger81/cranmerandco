@@ -144,6 +144,17 @@ input[type=submit]:hover {
 .contact_form h2{
     text-align:center;
 }
+.thank_you {
+    padding: 20px;
+	color:white;
+	background-color: #212529 !important;
+    background-image: url("../img/msg_received3.jpg");
+    background-blend-mode: multiply;
+    background-position: center center;
+    background-size: cover;
+	text-align:center;
+	height:350px;
+}
 
 .input-group-addon{
 	color:#ee4b28; 
