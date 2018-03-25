@@ -48,11 +48,12 @@ h6 {
 
 .bg-primary p{
   text-align:justify;
+  color: #660033;
 }
 
 .bg-primary {
-  background-color: #212529 !important;
-  background-image: url("../img/numbers.png");
+  background-color: #ffffcc !important;
+  /*background-image: url("../img/numbers.png");*/
   background-blend-mode: luminosity;
   background-position: center center;
   background-size: cover;
@@ -290,12 +291,14 @@ img::-moz-selection {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: url("../img/header2.jpg");
+  /*background-image: url("../img/header2.jpg");*/
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-color: #ffffcc;
+  color: #8c1d40;
 }
 
 header.masthead hr {
@@ -456,5 +459,5 @@ header.masthead p {
 
 .btn-light:hover, .btn-light:focus, .btn-light:active {
   color: #fff;
-  background-color: #ee4b28 !important;
+  background-color: #8c1d40 !important;
 }
