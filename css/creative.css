@@ -5,11 +5,13 @@ html {
 }
 
 .fa-linkedin-square {
-  color: gray;
+  color: #8c1d40;
 }
 
+
 #profilepic {
-  border: .5rem solid rgba(240, 95, 64, 0.7);
+  border: .5rem solid;
+  color: #8c1d40;
 }
 
 body {
@@ -68,7 +70,8 @@ h6 {
 }
 
 #contact {
-  background-image: url("../img/contact_background.png");
+  background-color: #ffffcc !important;
+  /* background-image: url("../img/contact_background.png"); */
   background-blend-mode: luminosity;
   background-position: center center;
   background-size: cover;
@@ -135,7 +138,7 @@ input[type=submit]:hover {
 .contact_form {
     padding: 20px;
 	color:white;
-	background-color: #212529 !important;
+	background-color: #8c1d40 !important;
     background-image: url("../img/contact_form_background3.jpg");
     background-blend-mode: multiply;
     background-position: center center;
@@ -214,12 +217,12 @@ img::-moz-selection {
   font-weight: 700;
   font-size: 24px;
   text-transform: uppercase;
-  color: #F05F40;
+  color: #8c1d40; /* colour for smaller screen menu */
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
 #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #f05f40;
+  color: black;
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link,
@@ -227,18 +230,18 @@ img::-moz-selection {
   font-size: .9rem;
   font-weight: 700;
   text-transform: uppercase;
-  color: #212529;
+  color: black;
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-  color: #F05F40;
+  color: #8c1d40; /* colour for hover of items on small screen */
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
-  color: #F05F40 !important;
-  background-color: transparent;
+  color: #8c1d40 !important;
+  background-color: transparent; /* used to highlight navbar items when on that particular section, scrolling down the page */
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover,
@@ -249,20 +252,20 @@ img::-moz-selection {
 @media (min-width: 992px) {
   #mainNav {
     border-color: transparent;
-    background-color: transparent;
+    background-color: black; /*default colour of navbar*/
   }
   #mainNav .navbar-brand {
-    color: rgba(255, 255, 255, 0.7);
+    color: white;
   }
   #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-    color: #fff;
+    color: #8c1d40;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link {
     padding: 0.5rem 1rem;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link,
   #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
-    color: rgba(255, 255, 255, 0.7);
+    color: #8c1d40;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
   #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
@@ -273,32 +276,32 @@ img::-moz-selection {
     background-color: #fff;
   }
   #mainNav.navbar-shrink .navbar-brand {
-    color: #F05F40;
+    color: #8c1d40;
   }
   #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
-    color: #f05f40;
+    color: #8c1d40;
   }
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
-    color: #212529;
+    color: black;
   }
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-    color: #F05F40;
+    color: #8c1d40;
   }
 }
 
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  /*background-image: url("../img/header2.jpg");*/
+  background-image: url("../img/header3.jpg");
+  background-blend-mode: luminosity;
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   background-color: #ffffcc;
-  color: #8c1d40;
 }
 
 header.masthead hr {
@@ -428,7 +431,7 @@ header.masthead p {
 }
 
 .text-primary {
-  color: #F05F40 !important;
+  color: #8c1d40 !important;
 }
 
 .btn {
@@ -444,20 +447,26 @@ header.masthead p {
 }
 
 .btn-primary {
-  background-color: #F05F40;
-  border-color: #F05F40;
+  background-color: #8c1d40!important;;
+  border-color: black;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   color: #fff;
-  background-color: #ee4b28 !important;
+  background-color: black !important;
 }
 
 .btn-primary:active, .btn-primary:focus {
   box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
 }
 
+.btn-light {
+  background-color: #8c1d40!important;;
+  border-color: black;
+  color: white;
+}
+
 .btn-light:hover, .btn-light:focus, .btn-light:active {
   color: #fff;
-  background-color: #8c1d40 !important;
+  background-color: black !important;
 }
