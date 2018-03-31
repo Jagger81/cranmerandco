@@ -70,11 +70,11 @@ h6 {
 }
 
 #services {
-  background-color: #f7f3cf !important;
+  background-color: #fbf9e9 !important;
 }
 
 #contact {
-  background-color: #f7f3cf !important;
+  background-color: #fbf9e9 !important;
   /* background-image: url("../img/contact_background.png"); */
   background-blend-mode: luminosity;
   background-position: center center;
@@ -305,7 +305,7 @@ header.masthead {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-color: #fbf9e9;  /* was #ffffcc */
+  background-color: #fbf9e9;  /* code from graphic designer is #f7f3cf */
 }
 
 header.masthead hr {
