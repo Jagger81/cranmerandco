@@ -5,13 +5,13 @@ html {
 }
 
 .fa-linkedin-square {
-  color: #8c1d40;
+  color: #9d003d;
 }
 
 
 #profilepic {
   border: .5rem solid;
-  color: #8c1d40;
+  color: #9d003d;
 }
 
 body {
@@ -25,7 +25,7 @@ hr {
 }
 
 hr.light {
-  border-color: #fff;
+  border-color: #9d003d;
 }
 
 a {
@@ -54,8 +54,8 @@ h6 {
 }
 
 .bg-primary {
-  background-color: #ffffcc !important;
-  /*background-image: url("../img/numbers.png");*/
+  background-color: #f7f3cf !important;
+  background-image: url("../img/CranmerNos-1.png");
   background-blend-mode: luminosity;
   background-position: center center;
   background-size: cover;
@@ -121,7 +121,7 @@ h6 {
 }
 
 input[type=submit] {
-    background-color: #F05F40;
+    background-color: #9d003d;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -131,14 +131,14 @@ input[type=submit] {
 
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
-    background-color: #ee4b28;
+    background-color: black;
 }
 
 /* Add a background color and some padding around the form */
 .contact_form {
     padding: 20px;
 	color:white;
-	background-color: #8c1d40 !important;
+	background-color: #9d003d !important;
     background-image: url("../img/contact_form_background3.jpg");
     background-blend-mode: multiply;
     background-position: center center;
@@ -217,7 +217,7 @@ img::-moz-selection {
   font-weight: 700;
   font-size: 24px;
   text-transform: uppercase;
-  color: #8c1d40; /* colour for smaller screen menu */
+  color: #9d003d; /* colour for smaller screen menu */
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
@@ -235,12 +235,12 @@ img::-moz-selection {
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-  color: #8c1d40; /* colour for hover of items on small screen */
+  color: #9d003d; /* colour for hover of items on small screen */
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link.active,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
-  color: #8c1d40 !important;
+  color: #9d003d !important;
   background-color: transparent; /* used to highlight navbar items when on that particular section, scrolling down the page */
 }
 
@@ -265,7 +265,7 @@ img::-moz-selection {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link,
   #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
-    color: #8c1d40;
+    color: #9d003d;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
   #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
@@ -276,10 +276,10 @@ img::-moz-selection {
     background-color: #fff;
   }
   #mainNav.navbar-shrink .navbar-brand {
-    color: #8c1d40;
+    color: #9d003d;
   }
   #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
-    color: #8c1d40;
+    color: #9d003d;
   }
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
@@ -287,21 +287,21 @@ img::-moz-selection {
   }
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
   #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-    color: #8c1d40;
+    color: #9d003d;
   }
 }
 
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: url("../img/header3.jpg");
+  background-image: url("../img/CranmerNos-1.png");
   background-blend-mode: luminosity;
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-color: #ffffcc;
+  background-color: #f7f3cf;  /* was #ffffcc */
 }
 
 header.masthead hr {
