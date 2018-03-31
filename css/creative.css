@@ -54,11 +54,11 @@ h6 {
 }
 
 .bg-primary {
-  background-color: #f7f3cf !important;
-  background-image: url("../img/CranmerNos-1.png");
-  background-blend-mode: luminosity;
+  background-color: white !important;
+  /*background-image: url("../img/CranmerNos-1.png");
+  background-blend-mode: multiply;
   background-position: center center;
-  background-size: cover;
+  background-size: cover; */
 }
 
 .bg-dark {
@@ -69,8 +69,12 @@ h6 {
   background-size: cover;
 }
 
+#services {
+  background-color: #f7f3cf !important;
+}
+
 #contact {
-  background-color: #ffffcc !important;
+  background-color: #f7f3cf !important;
   /* background-image: url("../img/contact_background.png"); */
   background-blend-mode: luminosity;
   background-position: center center;
@@ -138,7 +142,7 @@ input[type=submit]:hover {
 .contact_form {
     padding: 20px;
 	color:white;
-	background-color: #9d003d !important;
+	background-color: #212529 !important;
     background-image: url("../img/contact_form_background3.jpg");
     background-blend-mode: multiply;
     background-position: center center;
@@ -161,7 +165,7 @@ input[type=submit]:hover {
 }
 
 .input-group-addon{
-	color:#ee4b28; 
+	color:#9d003d; /*icon colours*/ 
 	background-color: #ffffff;
     padding: 15px 10px; /* Some padding */  
     border: 1px solid #ccc; /* Gray border */
@@ -252,7 +256,7 @@ img::-moz-selection {
 @media (min-width: 992px) {
   #mainNav {
     border-color: transparent;
-    background-color: black; /*default colour of navbar*/
+    background-color: white; /*default colour of navbar*/
   }
   #mainNav .navbar-brand {
     color: white;
@@ -273,7 +277,7 @@ img::-moz-selection {
   }
   #mainNav.navbar-shrink {
     border-bottom: 1px solid rgba(33, 37, 41, 0.1);
-    background-color: #fff;
+    background-color: white;
   }
   #mainNav.navbar-shrink .navbar-brand {
     color: #9d003d;
