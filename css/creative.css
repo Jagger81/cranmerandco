@@ -256,7 +256,7 @@ img::-moz-selection {
 @media (min-width: 992px) {
   #mainNav {
     border-color: transparent;
-    background-color: white; /*default colour of navbar*/
+    background-color: transparent; /*default colour of navbar*/
   }
   #mainNav .navbar-brand {
     color: white;
@@ -277,7 +277,7 @@ img::-moz-selection {
   }
   #mainNav.navbar-shrink {
     border-bottom: 1px solid rgba(33, 37, 41, 0.1);
-    background-color: white;
+    background-color: #fbf9e9; /* responsive background colour of Navbar */
   }
   #mainNav.navbar-shrink .navbar-brand {
     color: #9d003d;
