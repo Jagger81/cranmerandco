@@ -209,19 +209,24 @@ img::-moz-selection {
 }
 
 #mainNav {
-  border-bottom: 1px solid rgba(33, 37, 41, 0.1);
-  background-color: #fbf9e9; /* colour for responsive mobile devices */
+  border-bottom: none;
+  background-color: transparent; /* colour for responsive mobile devices */
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
 }
 
+#mainNav.navbar-shrink {
+    border-bottom: 1px solid rgba(33, 37, 41, 0.1);
+    background-color: #fbf9e9; /* background colour of Navbar on mobile device, when scrolling*/
+  }
+
 #mainNav .navbar-brand {
   font-weight: 700;
   font-size: 24px;
   text-transform: uppercase;
-  color: #9d003d; /* colour for smaller screen menu */
+  color: #9d003d; /* colour for smaller screen menu - no need for this unless it is text, it is currently an image */
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
