@@ -14,6 +14,35 @@ html {
   color: #9d003d;
 }
 
+#ryan .card-img-top, #polish .card-img-top{
+   align-self: center;
+   padding-top: 10px;
+   height: 150px;
+   width: 150px;
+}
+
+#bath .card-img-top{
+   align-self: center;
+   padding-top: 10px;
+   height: 150px;
+   width: 190px;
+}
+
+#dublin360 .card-img-top, #fighter .card-img-top{
+   align-self: center;
+   padding-top: 10px;
+   height: 60px;
+   width: 190px;
+}
+
+#elita .card-img-top{
+   align-self: center;
+   padding-top: 10px;
+   height: 60px;
+   width: 210px;
+}
+
+
 body {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
 }
@@ -267,7 +296,7 @@ img::-moz-selection {
     color: white;
   }
   #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-    color: #8c1d40;
+    color: #8c1d40; /* not currently used, text replaced with an image */
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link {
     padding: 0.5rem 1rem;
@@ -278,7 +307,7 @@ img::-moz-selection {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
   #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
-    color: #fff;
+    color: black;
   }
   #mainNav.navbar-shrink {
     border-bottom: 1px solid rgba(33, 37, 41, 0.1);
