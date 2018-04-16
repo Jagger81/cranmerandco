@@ -16,32 +16,47 @@ html {
 
 #ryan .card-img-top, #polish .card-img-top{
    align-self: center;
-   padding-top: 10px;
+   padding-top: 20px;
    height: 150px;
    width: 150px;
 }
 
 #bath .card-img-top{
    align-self: center;
-   padding-top: 10px;
+   padding-top: 20px;
    height: 150px;
    width: 190px;
 }
 
 #dublin360 .card-img-top, #fighter .card-img-top{
    align-self: center;
-   padding-top: 10px;
+   padding-top: 20px;
    height: 60px;
    width: 190px;
 }
 
 #elita .card-img-top{
    align-self: center;
-   padding-top: 10px;
-   height: 60px;
+   padding-top: 20px;
+   height: 80px;
    width: 210px;
 }
 
+.card-header, .card-footer{
+  background-color: #fbf9e9;
+  border-color: #9d003d;
+}
+
+.card-header{
+  font-size: large;
+  color:#9d003d;
+}
+
+.card{
+  padding:5px;
+  border-color: transparent;
+  box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
 body {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
